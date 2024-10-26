@@ -15,7 +15,7 @@ public class OrderService {
 
   public String getOrder() {
     // order-service에 GET 요청을 보냄
-//    return restTemplate.getForObject("http://order-service:8080/order", String.class);
-    return restTemplate.getForObject("http://localhost:1002/order", String.class);
+    return restTemplate.getForObject("http://order-service:1002/order", String.class);
+//    return restTemplate.getForObject("http://localhost:1002/order", String.class);
   }
 }

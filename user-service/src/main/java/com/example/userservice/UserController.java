@@ -15,6 +15,6 @@ public class UserController {
   @GetMapping("/user")
   public String getUserWithOrder() {
     String order = orderService.getOrder();
-    return "User Service - Order Details: " + order;
+      return "User Service - Order Details: " + order;
   }
 }
